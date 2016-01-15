@@ -6,12 +6,13 @@ $(document).ready(function() {
     var bigCities = $("select#bigCities").val();
     var gambling = $("select#gambling").val();
 
-    $(".result-row").hide();   // $(".results").children("div").hide();
-
+    // hide everything on refresh
+    $(".result-row").hide();
     $(".location").hide();
     $(".textBelow").show();
+    // hide text that appears on only one 'yes' answer
     $(".gambling").hide();
-    // $(".textabove").hide();
+    // $(".no").hide();  NOT WORKING
 
     // All "yes"
     if ((sunny === "yes") && (rivers === "yes") && (beaches === "yes") && (bigCities === "yes") && (gambling === "yes")) {
@@ -19,6 +20,7 @@ $(document).ready(function() {
       $(".sanfran").show();
   // All "no"
     } else if ((sunny === "no") && (rivers === "no") && (beaches === "no") && (bigCities === "no") && (gambling === "no")) {
+      $(".no").show();
       $(".syria").show();
       $(".mordor").show();
   // Sunny only "yes"
@@ -31,10 +33,12 @@ $(document).ready(function() {
     } else if ((sunny === "no") && (rivers === "no") && (beaches === "yes") && (bigCities === "no") && (gambling === "no")) {
       $(".hawaii").show();
       $(".sanfran").show();
+      $(".monteCarlo").show();
   // City only "yes"
     } else if ((sunny === "no") && (rivers === "no") && (beaches === "no") && (bigCities === "yes") && (gambling === "no")) {
       $(".ny").show();
       $(".sanfran").show();
+      $(".london").show();
   // Gambling only "yes"
     } else if ((sunny === "no") && (rivers === "no") && (beaches === "no") && (bigCities === "no") && (gambling === "yes")) {
       $(".gambling").show();
@@ -51,6 +55,7 @@ $(document).ready(function() {
   // Sunny and (rivers, beaches, cities, or gambling) "yes"
     } else if ((sunny === "yes") && ((rivers === "yes") || (beaches === "yes") || (bigCities === "yes") || (gambling === "yes"))) {
       $(".sanfran").show();
+      $(".macau").show();
   // Rivers and (beaches, cities, or gambling) "yes"
     } else if ((rivers === "yes") && ((beaches === "yes") || (bigCities === "yes") || (gambling === "yes"))) {
       $(".sanfran").show();
@@ -63,7 +68,7 @@ $(document).ready(function() {
       $(".macau").show();
       $(".london").show();
     } else {
-
+      $(".sanfran").show();
     }
 
 

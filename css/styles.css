@@ -13,6 +13,6 @@ img.thumb {
   max-height: 350px;
 }
 
-/*.location, .textBelow, .gambling {
+.location, .textBelow, .gambling {
   display: none;
-}*/
+}
