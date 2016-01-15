@@ -22,85 +22,164 @@
 
       <!-- Question: 1 -->
             <h4 for="question1">Do you like Hot Sunny Places</h4>
-            <select id="question1" class="form-control">
+            <select id="sunny" name="place" class="form-control place">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
 
       <!-- Question: 2 -->
             <h4 for="question1">Do you like Rivers</h4>
-            <select id="question1" class="form-control">
+            <select id="rivers" name="place" class="form-control place">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
 
       <!-- Question: 3 -->
             <h4 for="question1">Do you like Beaches</h4>
-            <select id="question1" class="form-control">
+            <select id="beaches" name="place" class="form-control place">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
 
       <!-- Question: 4 -->
             <h4 for="question1">Do you like Big Cities</h4>
-            <select id="question1" class="form-control">
+            <select id="bigCities" name="place" class="form-control place">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
 
       <!-- Question: 5 -->
             <h4 for="question1">Do you like Gambling</h4>
-            <select id="question1" class="form-control">
+            <select id="gambling" name="place" class="form-control place">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
 
             <button class="btn btn-info" type="submit" name="button">Find My Dream</button>
           </form>  <!-- /FORM -->
+          <hr>
         </div>
       </div>  <!-- /ROW -->
 
-<!-- RESULTS ============= -->
+      <!-- <div class="row textAbove">
+        <div class="col-sm-12">
+          <hr>
+          <h2>Your results will appear here</h2>
+          <p><em>You will see one or more results, based on your selection</em></p>
+        </div>
+      </div>   -->
+
+      <!-- RESULTS ============= -->
+
+      <div class="row textBelow">
+        <div class="col-sm-12">
+          <h2>Here are one or more vacation suggestions you might like</h2>
+        </div>
+      </div>  <!-- /ROW -->
 
       <div class="row">
         <div class="col-sm-12">
 
-          <div class="thumbnail hawaii">
-            <img class="thumb" src="images/pizza.jpg" alt="...">
+          <div class="thumbnail hawaii location">
+            <img class="thumb" src="images/hawaii.jpg" alt="...">
             <div class="caption">
               <h3>Hawaii</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
           </div>  <!-- /THUMB -->
 
-          <div class="thumbnail ny">
-            <img class="thumb" src="images/ihop.jpg" alt="...">
+    <!-- GAMBLING -->
+          <div class="row gambling">
+            <div class="col-sm-12">
+              <hr>
+              <h4>You specified that you only like gambling. Which means winning is number one for you. We hope you like the following selection of the top 5 gambling cities in the world.</h4>
+            </div>
+          </div>  <!-- /ROW -->
+
+          <div class="thumbnail vegas location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>Las Vegas</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail atlanticCity location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>Atlantic City</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail macau location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>Macau, China</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail monteCarlo location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>Monte Carlo, Monaco</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail london location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>London, England</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail sanfran location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>San Francisco</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail ny location">
+            <img class="thumb" src="images/" alt="...">
             <div class="caption">
               <h3>New York</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
           </div>  <!-- /THUMB -->
 
-          <div class="thumbnail disneyland">
-            <img class="thumb" src="images/donuts.jpg" alt="...">
+          <div class="thumbnail disneyland location">
+            <img class="thumb" src="images/" alt="...">
             <div class="caption">
               <h3>Disneyland</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
           </div>  <!-- /THUMB -->
 
-          <div class="thumbnail colorado">
-            <img class="thumb" src="images/ihop.jpg" alt="...">
+          <div class="thumbnail colorado location">
+            <img class="thumb" src="images/" alt="...">
             <div class="caption">
               <h3>Aspen Colorado</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
           </div>  <!-- /THUMB -->
 
-          <div class="thumbnail mordor">
-            <img class="thumb" src="images/donuts.jpg" alt="...">
+          <div class="thumbnail mordor location">
+            <img class="thumb" src="images/" alt="...">
             <div class="caption">
               <h3>Mordor</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>  <!-- /THUMB -->
+
+          <div class="thumbnail syria location">
+            <img class="thumb" src="images/" alt="...">
+            <div class="caption">
+              <h3>Syria</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
           </div>  <!-- /THUMB -->

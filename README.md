@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Vacation Wiki_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Vacation site that depicts ideal vacation resort based on user answering 5 questions, January 15, 2016_
 
-#### By _**{List of contributors}**_
+#### By _**Ronando Long**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The user is presented with 5 yes/no questions asking if they like sunny places, big cities, gambling etc. Their response of yes or no will then result in an ideal vacation setting based on branching if/else statements._
 
 ## Setup/Installation Requirements
 
