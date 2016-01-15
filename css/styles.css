@@ -3,6 +3,7 @@
   margin-bottom: 20px;
 }
 
+
 button {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -15,4 +16,23 @@ img.thumb {
 
 .location, .textBelow, .gambling {
   display: none;
+}
+
+/* ------------------------------------ */
+/* MEDIA QUERIES */
+/* ------------------------------------ */
+@media screen and (max-width: 790px) {
+  .col-xs-4 {
+    width: 100%;
+  }
+
+  h4 {
+    line-height: 2em;
+    font-size: 1.85em;
+    margin-top: 30px;
+  }
+
+  .styled-select {
+  font-size: 1.75em;
+  }
 }
