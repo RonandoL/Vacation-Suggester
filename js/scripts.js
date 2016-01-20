@@ -1,10 +1,24 @@
 $(document).ready(function() {
   $("form.vacation").submit(function(event) {
+    var likes = [];
+    $("select").each(function() {
+      if ($(this).val() === "yes") {
+        likes.push($(this).attr('id'));
+      }
+    });
+    likes.forEach(function(like) {
+      console.log(like);
+      $("." + like).show();
+    });
+
     var sunny = $("select#sunny").val();
     var rivers = $("select#rivers").val();
     var beaches = $("select#beaches").val();
     var bigCities = $("select#bigCities").val();
     var gambling = $("select#gambling").val();
+
+
+
 
     // hide everything on refresh
     $(".result-row").hide();
